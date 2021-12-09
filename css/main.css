@@ -7,7 +7,7 @@ body{
     height: 100vh;
     overflow: hidden;
     /* margin: 0; */
-    background-color: black;
+    background-color: #f20e1f;
     background-position: center;
     /* background-size: cover; */
     flex-direction: column;
@@ -60,27 +60,33 @@ ul li label{
     font-size: 25px;
 }
 button{
-    background-color: yellow;
-    border: none;
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 350px;
     display: block;
-    width: 100%;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #000000;
+    color: red;
     padding: 15px;
     transition: all 0.5s ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 button:hover{
-    background-color: #FFD700;
+    background-color: red;
+    color: white;
 }
 button:focus{
     outline: none;
-    background-color: #FFD700;
+    background-color: red;
+    color: white;
 }
 h1{
-   background-color: yellow;
+   background-color: #40E0D0;
     border: none;
     display: block;
     width: 100%;
@@ -118,7 +124,7 @@ input[type='radio']::before {
   border-radius: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  border: 3px solid yellow;
+  border: 3px solid red;
 
 }
 
@@ -130,7 +136,7 @@ input[type='radio']:checked::after {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: red;
   transform: translate(-50%, -50%);
   visibility: visible;
 }
@@ -138,8 +144,13 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: yellow;
+    color:red;
 }
 a:hover {
-    color: yellow;
+    color:red;
+}
+
+img{
+    padding-bottom: 20px;
+    border-radius: 50px;
 }
