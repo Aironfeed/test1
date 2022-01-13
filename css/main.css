@@ -7,7 +7,7 @@ body{
     height: 100vh;
     overflow: hidden;
     /* margin: 0; */
-    background-color: black;
+    background-color: #cfe5f3;
     background-position: center;
     /* background-size: cover; */
     flex-direction: column;
@@ -60,7 +60,7 @@ ul li label{
     font-size: 25px;
 }
 button{
-    background-color: yellow;
+    background-color: #3f5d81;
     border: none;
     display: block;
     width: 100%;
@@ -73,14 +73,14 @@ button{
     transition: all 0.5s ease;
 }
 button:hover{
-    background-color: #FFD700;
+    background-color: #3f5d81;
 }
 button:focus{
     outline: none;
-    background-color: #FFD700;
+    background-color: #3f5d81;
 }
 h1{
-   background-color: yellow;
+   background-color: #40E0D0;
     border: none;
     display: block;
     width: 100%;
@@ -118,7 +118,7 @@ input[type='radio']::before {
   border-radius: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  border: 3px solid yellow;
+  border: 3px solid #3f5d81;
 
 }
 
@@ -130,7 +130,7 @@ input[type='radio']:checked::after {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: #00CED1;
   transform: translate(-50%, -50%);
   visibility: visible;
 }
@@ -138,8 +138,13 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: yellow;
+    color: #3f5d81;
 }
 a:hover {
-    color: yellow;
+    color: #3f5d81;
+}
+
+img{
+    padding-bottom: 20px;
+    border-radius: 50px;
 }
